@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import HamburgerNav from './components/HamburgerNav'
 import Profile from './components/Profile'
 import About from './components/About'
-import Experience from './components/TechStack'
+import TechStack from './components/TechStack'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -22,7 +22,7 @@ function App() {
       <HamburgerNav isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
       <Profile />
       <About />
-      <Experience />
+      <TechStack/>
       <Projects />
       <CodingActivity />
       <Contact />
